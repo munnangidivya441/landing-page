@@ -1,0 +1,92 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:box-border;
+    font-family:"Roboto" ,sans-serif;
+}
+section{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url('land4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:85%;
+    margin:auto;
+
+    
+
+
+}
+nav{
+    height:50px;
+}
+nav ul{
+    float:right;
+    line-height:60px;
+    font-size:30px;
+    font-size:inline;
+    color:#eb7620;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    padding:0px 5px;
+}
+nav ul li a{
+    color:#5045f7;
+    text-decoration: none;
+    
+    border-radius:5px;
+    padding:7px 8px;
+}
+nav ul li a:hover{
+    background-color:#eb7620;
+    transition:0.5s ease;
+}
+nav ul li .active{
+    background-color:#eb7620;
+}
+.article{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    transform:translateY(25vh);
+}
+.article h1{
+    font-size:36px;
+    color:#fff;
+    letter-spacing:1.5px;
+    font-weight:800;
+    margin-bottom:25px;
+}
+.article p{
+    font-size:18px;
+    color:#7e7e7e;
+    line-height:1.5;
+    margin-bottom:50px;
+}
+.article .btn{
+    color:#fff;
+    padding:12px 25px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    text-decoration: none;
+    background-color:#7248f1;
+}
+.article .btn:hover{
+    background-color:#d11c22;
+    transition: 0.5s ease;
+
+}
+
+.store{
+    padding:0px 5px;
+    height:50px;
+    float:left;
+    line-height:80px;
+    font-size:30px;
+    font-size:inline;
+    color:#eb7620;
+}
